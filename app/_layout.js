@@ -1,4 +1,4 @@
-import { View, Text} from 'react-native';
+
 
 import React, { useEffect} from 'react';
 
@@ -8,7 +8,7 @@ import "../global.css";
 
 import { AuthContextProvider, useAuth } from '../context/authContext';
 
-import { MenuProviderf } from 'react-native-popup-menu';
+import { MenuProvider } from 'react-native-popup-menu';
 
 
 const MainLayout = () => {
